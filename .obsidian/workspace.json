@@ -11,10 +11,14 @@
             "id": "4b45d62d1b40a492",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "$basetexture.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "$basetexture"
             }
           }
         ]
@@ -190,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2514867597fb24a",
+  "active": "4b45d62d1b40a492",
   "lastOpenFiles": [
     "_resources/Jackal_Normal.png",
     "PBR.md",
