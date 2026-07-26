@@ -22,6 +22,45 @@
             }
           }
         ]
+      },
+      {
+        "id": "a7aac21f58facc04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33a7ee5e96048bd1",
+            "type": "leaf",
+            "state": {
+              "type": "translator-view",
+              "state": {
+                "language_from": "auto",
+                "language_to": "ru",
+                "translation_service": "google_translate",
+                "auto_translate": false,
+                "apply_glossary": false,
+                "view_mode": 0,
+                "filter_mode": 0,
+                "show_attribution": false,
+                "top_buttons": [
+                  "change-service",
+                  "automatic-translation",
+                  "change-layout",
+                  "apply-filter",
+                  "open-settings"
+                ],
+                "left_buttons": [
+                  "paste",
+                  "clear"
+                ],
+                "right_buttons": [
+                  "copy"
+                ]
+              },
+              "icon": "google_translate",
+              "title": "Google Translate"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +234,7 @@
       "translate:Open translation view": false
     }
   },
-  "active": "4b45d62d1b40a492",
+  "active": "33a7ee5e96048bd1",
   "lastOpenFiles": [
     "$basetexture.md",
     "$bumpmap.md",

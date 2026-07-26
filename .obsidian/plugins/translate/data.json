@@ -299,7 +299,7 @@
         "ru"
       ],
       "api_key": "",
-      "auto_translate": true,
+      "auto_translate": false,
       "auto_translate_interval": 500,
       "validated": null,
       "available_languages": [
