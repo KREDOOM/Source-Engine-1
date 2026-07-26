@@ -75,7 +75,9 @@
       "version": "1.0.0"
     },
     "lingva_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "ru"
+      ],
       "host": "translate.plausibility.cloud",
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -218,7 +220,9 @@
       "version": "1.0.1"
     },
     "deepl": {
-      "selected_languages": [],
+      "selected_languages": [
+        "ru"
+      ],
       "api_key": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -291,11 +295,13 @@
       "version": "1.0.3"
     },
     "google_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "ru"
+      ],
       "api_key": "",
       "auto_translate": true,
-      "auto_translate_interval": 0,
-      "validated": false,
+      "auto_translate_interval": 500,
+      "validated": null,
       "available_languages": [
         "af",
         "ak",
@@ -437,7 +443,9 @@
       "version": "1.1.0"
     },
     "azure_translator": {
-      "selected_languages": [],
+      "selected_languages": [
+        "ru"
+      ],
       "api_key": "",
       "region": "",
       "host": null,
@@ -584,7 +592,9 @@
       "version": "1.1.0"
     },
     "yandex_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "ru"
+      ],
       "api_key": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
