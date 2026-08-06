@@ -1,6 +1,6 @@
 {
-  "commitMessage": "Автор обновления: {{hostname}}\nКоличество изменённых файлов: {{numFiles}}\nДата: {{date}}",
-  "autoCommitMessage": "Автор обновления: {{hostname}}\nКоличество изменённых файлов: {{numFiles}}\nДата: {{date}}",
+  "commitMessage": "Ручное обновление\nАвтор обновления: {{hostname}}\nКоличество изменённых файлов: {{numFiles}}\nДата: {{date}}",
+  "autoCommitMessage": "Авто обновление\nАвтор обновления: {{hostname}}\nКоличество изменённых файлов: {{numFiles}}\nДата: {{date}}",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY.MM.DD HH:mm",
   "autoSaveInterval": 1,
