@@ -1,7 +1,7 @@
 {
   "lastVersion": "4.0.11",
   "aestheticStyle": "default",
-  "positionStyle": "top",
+  "positionStyle": "fixed",
   "menuCommands": [
     {
       "id": "editing-toolbar:ai-tools",
@@ -424,8 +424,8 @@
   ],
   "enableMultipleConfig": false,
   "enableTopToolbar": true,
-  "enableFollowingToolbar": false,
-  "enableFixedToolbar": false,
+  "enableFollowingToolbar": true,
+  "enableFixedToolbar": true,
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
