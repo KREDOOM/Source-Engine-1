@@ -1,56 +1,116 @@
-`$envmapmask` - это [материальный](https://developer.valvesoftware.com/wiki/Ru/Material "Ru/Material") параметр [шейдера](https://developer.valvesoftware.com/wiki/Ru/Shader "Ru/Shader"), доступно для всех игр на движке [Source](https://developer.valvesoftware.com/wiki/Ru/Source "Ru/Source"). Этот параметр определяет **маску бликов**, которая влияет на то, насколько сильно каждый пиксель материала отражает свет от [$envmap](https://developer.valvesoftware.com/wiki/Ru/$envmap "Ru/$envmap"). Маска должна быть изображением в градациях серого, в котором полностью отражающие области являются белыми, а полностью матовые области - черными. Для отражения диффузного типа, которое не зависит от`$envmap,`см.[$phong](https://developer.valvesoftware.com/wiki/Ru/$phong "Ru/$phong").
+## $envmapmask
 
-**Баг:**В играх на [Source 2007](https://developer.valvesoftware.com/wiki/Ru/Orange_Box_\(engine_branch\) "Ru/Orange Box (engine branch)") использование `$envmapmask`, которая не хранится во вложенной подпапке, приведет к сбою загрузки текстуры в игре.  [нужно проверить в [?](https://developer.valvesoftware.com/wiki/Template:BugNotice#Parameters "Template:BugNotice")]
+Это параметр [[Шейдеры|шейдера]] материала в движке [[Source Engine 1|Source]], определяющий текстурную маску (Specular Map) для зеркальных отражений кубмапов ([[$envmap]]). Она указывает движку, какие участки поверхности являются глянцевыми и отражают окружение, а какие остаются матовыми.
 
-**Предупреждение:**В большинстве случаев, `$envmapmask` не будет работать с материалами, использующими [$bumpmap](https://developer.valvesoftware.com/w/index.php?title=Ru/$bumpmap&action=edit&redlink=1 "Ru/$bumpmap (page does not exist)"). Смотреть [#Альтернативные_методы](https://developer.valvesoftware.com/wiki/Ru/$envmapmask#%D0%90%D0%BB%D1%8C%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B).
+Ключевые особенности механики
 
-**Примечание:**Исключения:
+- **Принцип работы:** Шейдер считывает яркость (яркостную карту / Grayscale) маски. Белые участки (`RGB 255 255 255`) отражают кубмапы со стопроцентной силой, черные участки (`RGB 0 0 0`) полностью блокируют отражения. Серые тона задают промежуточную интенсивность.
+- **Математика отражений:** Маска управляет исключительно интенсивностью (видимостью) кубмапа на поверхности. Она **не влияет** на размытие блика (за это в Source отвечает параметр `$envmapcontrast` и настройки шейдера [[$phong]]).
+- **Цветовое пространство:** Как и все карты данных (маски), `$envmapmask` должна обрабатываться движком в цветовом пространстве **Linear (Data)**. Любая гамма-коррекция sRGB исказит распределение градиентов отражений.
 
-- **[LightmappedReflective](https://developer.valvesoftware.com/wiki/LightmappedReflective "LightmappedReflective")** (использует [$normalmap](https://developer.valvesoftware.com/w/index.php?title=Ru/$normalmap&action=edit&redlink=1 "Ru/$normalmap (page does not exist)"))
-- (_только_ в [![Mapbase](https://developer.valvesoftware.com/w/images/thumb/5/5b/Mapbase-16px.png/16px-Mapbase-16px.png)](https://developer.valvesoftware.com/wiki/Ru/Mapbase "Mapbase")) **[VertexLitGeneric](https://developer.valvesoftware.com/wiki/VertexLitGeneric "VertexLitGeneric")**
-- (_только_ в [![Counter-Strike: Global Offensive](https://developer.valvesoftware.com/w/images/thumb/8/85/Csgo_icon.png/16px-Csgo_icon.png)](https://developer.valvesoftware.com/wiki/Ru/Counter-Strike:_Global_Offensive "Counter-Strike: Global Offensive"))**[LightmappedGeneric](https://developer.valvesoftware.com/wiki/LightmappedGeneric "LightmappedGeneric")**
+---
 
-**Предупреждение:**`$envmapmask` не будет работать с материалами, использующими [$phong](https://developer.valvesoftware.com/wiki/Ru/$phong "Ru/$phong"). По умолчанию envmap будет использовать альфа-канал [$basetexture](https://developer.valvesoftware.com/wiki/Ru/$basetexture "Ru/$basetexture") для маскировки.
+## 📐 Синтаксис VMT
 
-**Примечание:**Маски бликов традиционно являются чёрно-белыми, однако они могут иметь цвет. В таком случае информация о цвете будет использоваться как потексельная $envmaptint.
+В базовом варианте маска подключается как отдельный независимый текстурный файл формата `.vtf`.
 
-## Пример синтаксиса VMT
+vmt
 
-$envmapmask <текстура>
-
-[VertexLitGeneric](https://developer.valvesoftware.com/w/index.php?title=Ru/VertexLitGeneric&action=edit&redlink=1 "Ru/VertexLitGeneric (page does not exist)")([en](https://developer.valvesoftware.com/wiki/VertexLitGeneric))
+```
+"LightmappedGeneric"
 {
-	[$envmap](https://developer.valvesoftware.com/wiki/Ru/$envmap "Ru/$envmap")			env_cubemap
-	**$envmapmask		"props/tvscreen_test"**
+	"$basetexture" "stone/floor_marble01"
+	
+	// Активация и настройка зеркальных отражений
+	"$envmap"          "env_cubemap"
+	"$envmapmask"      "stone/floor_marble01_spec"
+	"$envmaptint"      "[0.8 0.8 0.8]"             // Множитель цвета и силы отражений
 }
+```
 
-## Дополнительные параметры
+Используйте код с осторожностью.
 
-[![](https://developer.valvesoftware.com/w/images/thumb/d/da/Scanner_mask.jpg/250px-Scanner_mask.jpg)](https://developer.valvesoftware.com/wiki/File:Scanner_mask.jpg)
+---
 
-Маска блика [npc_cscanner](https://developer.valvesoftware.com/wiki/Ru/Npc_cscanner "Ru/Npc cscanner")'а.
+## 📦 Оптимизация: Упаковка маски в альфа-каналы
 
-[$envmapmasktransform](https://developer.valvesoftware.com/w/index.php?title=Ru/$envmapmasktransform&action=edit&redlink=1 "Ru/$envmapmasktransform (page does not exist)")([en](https://developer.valvesoftware.com/wiki/$envmapmasktransform)) <[matrix](https://developer.valvesoftware.com/w/index.php?title=Ru/Matrix&action=edit&redlink=1 "Ru/Matrix (page does not exist)")([en](https://developer.valvesoftware.com/wiki/Matrix))> (DX9 SM2)
+Использование отдельного файла для `$envmapmask` крайне неэффективно, так как тратит лишнюю видеопамять и снижает производительность. В Source предусмотрено два альтернативных метода упаковки маски в альфа-каналы других текстур:
 
-Трансформирует текстуру маски бликов.
+1. В альфа-канал базовой текстуры (`$basealphaenvmapmask`)
 
-Положение по умолчанию: `center .5 .5 scale 1 1 rotate 0 translate 0 0`.
+Самый популярный метод для брашевой геометрии (шейдер `LightmappedGeneric`). Маска зеркальности запекается напрямую в альфа-канал диффузной карты.
 
-1. `center` определяет центр вращения. Необходим только при использовании `rotate`.
-2. `scale` вписывает текстуру в материал заданное количество раз. `2 1` - это 50%-ый масштаб по горизонтальной оси X, а размер по вертикальной оси Y остаётся исходным.
-3. `rotate` вращение текстуры _против_ часовой стрелки в градусах. Возможны любые числовые значения, включая отрицательные.
-4. `translate` сдвиг текстуры на указанную величину. Значение `.5` сдвинет текстуру на 50% размера. Указание 1 сдвинет текстуру на её размер, что фактически ничего не изменит.
+vmt
 
-**Примечание:**_Все значения_ должны быть указаны!
+```
+"LightmappedGeneric"
+{
+	"$basetexture"            "stone/floor_marble01" // Маска Specular запечена в Альфу этой текстуры
+	"$envmap"                 "env_cubemap"
+	"$basealphaenvmapmask"    "1"                    // Читать маску из альфы диффуза
+}
+```
 
-**Баг:**Масштабирование текстуры может вызвать странные проблемы, когда инструмент «Texture Lock» в Hammer фактически не фиксирует текстуру на месте.  [нужно проверить в [?](https://developer.valvesoftware.com/wiki/Template:BugNotice#Parameters "Template:BugNotice")]
+Используйте код с осторожностью.
 
-**Баг:**Вращение текстур, покрывающих элементы карты, отсчитывается относительно начала координат карты. Чтобы исправить это, нужно изменить положение центра в VMT на точку отсчёта элемента карты.  [нужно проверить в [?](https://developer.valvesoftware.com/wiki/Template:BugNotice#Parameters "Template:BugNotice")]
+2. В альфа-канал карты нормалей (`$normalmapalphaenvmapmask`)
 
-[$envmapmaskscale](https://developer.valvesoftware.com/w/index.php?title=Ru/$envmapmaskscale&action=edit&redlink=1 "Ru/$envmapmaskscale (page does not exist)")([en](https://developer.valvesoftware.com/wiki/$envmapmaskscale)) <[число с плавающей запятой](https://developer.valvesoftware.com/wiki/Ru/Float "Ru/Float")> (DX8)
+Стандартный метод для динамических моделей (шейдер `VertexLitGeneric`). Маска зеркальности запекается в альфа-канал карты рельефа.
 
-Масштабирует маску бликов до заданного значения. Смотреть `$envmapmasktransform` (выше).
+vmt
 
-[$envmapmaskframe](https://developer.valvesoftware.com/w/index.php?title=Ru/$envmapmaskframe&action=edit&redlink=1 "Ru/$envmapmaskframe (page does not exist)")([en](https://developer.valvesoftware.com/wiki/$envmapmaskframe)) <[целое число](https://developer.valvesoftware.com/wiki/Ru/Integer "Ru/Integer")>
+```
+"VertexLitGeneric"
+{
+	"$basetexture"            "models/weapons/v_pistol"
+	"$bumpmap"                "models/weapons/v_pistol_normal" // Маска Specular запечена в Альфу нормалей
+	"$envmap"                 "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"                         // Читать маску из альфы нормалей
+}
+```
 
-Кадр для начала анимированной маски бликов.
+Используйте код с осторожностью.
+
+⚠️ **Внимание (Дублирование команд):** Если вы используете один из методов упаковки (`$basealphaenvmapmask` или `$normalmapalphaenvmapmask`), саму команду `"$envmapmask"` в VMT прописывать **категорически запрещено**. Их совместное объявление путает шейдер и отключает маскирование.
+
+---
+
+## 🛠️ Переиспользование интерполяторов и $envmapmasktransform
+
+Матрица двумерного преобразования UV-координат для карты зеркальности.
+
+vmt
+
+```
+"$envmapmasktransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+```
+
+Используйте код с осторожностью.
+
+## 🎛️ Скрытая механика шейдерного конвейера
+
+В отличие от детальных текстур ([[$detail]]) и карт нормалей ([[$bumpmap]]), которые в большинстве веток Source жестко привязаны к UV-координатам базового слоя, матрица `$envmapmasktransform` имеет особый статус:
+
+- **Изоляция на брашах:** В шейдере `LightmappedGeneric` (стены, полы) трансформация `$envmapmasktransform` работает абсолютно независимо. Вы можете заставить базовую текстуру бежать в одну сторону, а маску отражений — в другую (или оставить ее статичной).
+- **Слияние на моделях:** В шейдере `VertexLitGeneric` (персонажи, оружие) из-за критического дефицита вершинных интерполяторов DirectX 9, матрица маски отражений практически всегда принудительно объединяется с `$basetexturetransform`. Любое динамическое прокси-изменение базовой текстуры сдвинет и маску зеркальности.
+
+---
+
+## 🛑 Известные баги и конфликты (Troubleshooting)
+
+- **Эффект «Хромированной фольги» (Глянцевое заплывание):**
+    - _Причина 1:_ В VMT прописана команда `"$envmap" "env_cubemap"`, но маска отсутствует (не указан ни один из параметров `$envmapmask`, `$basealphaenvmapmask` или `$normalmapalphaenvmapmask`). Движок считает всю поверхность идеально белой маской, из-за чего объект превращается в сплошное зеркало.
+    - _Причина 2:_ Аппаратный конфликт между Phong и Envmap. Как подробно описано в статье [[$bumpmap]], команды `$normalmapalphaenvmapmask` и `$phong` нельзя использовать вместе, так как они ведут войну за альфа-канал одной и той же карты нормалей. Шейдер сходит с ума, заливая модель ядовитым глянцем.
+    - _Решение:_ Разносить маски. Настраивать Phong через альфу `$bumpmap`, а маску кубмапов выносить в альфу базовой текстуры через `$basealphaenvmapmask`.
+- **Отражения выглядят как грубая мозаика (Пиксельные квадраты):**
+    - _Причина:_ При импорте текстуры, содержащей маску зеркальности, в VTFEdit был выбран формат сжатия DXT1 (уничтожает альфу или превращает её в жесткую бинарную маску 1-бит) или DXT5 с некорректно настроенной компрессией альфа-канала.
+    - _Решение:_ Использовать для текстур-контейнеров формат сжатия **DXT5** (он сохраняет плавные 8-битные градиенты в альфе). Для максимального качества (оружие, линзы прицелов) пережимать маску в несжатый формат **BGRA8888**.
+- **Маска полностью игнорируется на статичной геометрии (World-брашах):**
+    - _Причина:_ Ограничение старых версий движка Source. Если на браше применяется карта нормалей (`$bumpmap`), то использование классической отдельной команды `$envmapmask` аппаратно игнорируется пиксельным шейдером.
+    - _Решение:_ При наличии рельефа на брашах маску отражений можно сэмплировать **только** через альфа-канал карты нормалей (`$normalmapalphaenvmapmask`).
+
+---
+
+**Смотри также:** [[$basetexture]] | [[$bumpmap]] | [[$phong]] | [[Шейдеры]] | [[Proxies]]
+
+---

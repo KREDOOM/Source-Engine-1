@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$basetexture.md",
-                "mode": "preview",
+                "file": "Модели.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "$basetexture"
+              "title": "Модели"
             }
           }
         ]
@@ -197,16 +197,20 @@
   },
   "active": "4b45d62d1b40a492",
   "lastOpenFiles": [
-    "$bumpmap.md",
-    "$basetexture.md",
     "$phong.md",
-    "Source Engine 1.md",
-    "$detail.md",
-    "$envmapmask.md",
+    "Модели.md",
     "Текстуры и материалы.md",
     "Шейдеры.md",
     "PBR.md",
+    "Source Engine 1.md",
+    "Proxies.md",
+    "$basetexture.md",
+    "$bumpmap.md",
+    "$detail.md",
+    "$envmap.md",
+    "$envmapmask.md",
     "VertexLitGeneric.md",
+    "(bumpmap.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
@@ -219,9 +223,6 @@
     "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
     "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "_resources/Jackal_Normal.png",
@@ -238,7 +239,6 @@
     "_resources/PBR_to_BlinnPhong.sbs",
     "_resources/PBR_to_BlinnPhong.resources/XXXXXX-Jackal_Roughness.png",
     "_resources/PBR_to_BlinnPhong.resources",
-    "шейдера.md",
     "Без названия.base",
     "_resources"
   ]
