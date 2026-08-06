@@ -1,5 +1,5 @@
 {
-  "commitMessage": "Автор обнавления: {{hostname}}\nКол.во изменённых файлов: {{numFiles}}\nДата: {{date}}",
+  "commitMessage": "Автор обновления: {{hostname}}\nКолличество изменённых файлов: {{numFiles}}\nДата: {{date}}",
   "autoCommitMessage": "vault backup: {{date}}",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY.MM.DD HH:mm",
@@ -41,7 +41,7 @@
     "statusBar": "colored"
   },
   "lineAuthor": {
-    "show": false,
+    "show": true,
     "followMovement": "inactive",
     "authorDisplay": "initials",
     "showCommitHash": false,
