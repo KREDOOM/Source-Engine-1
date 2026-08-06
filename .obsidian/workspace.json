@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Engine 1.md",
+                "file": "$ssbump.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Source Engine 1"
+              "title": "$ssbump"
             }
           }
         ],
@@ -213,6 +213,7 @@
   },
   "active": "9e753895502da1fd",
   "lastOpenFiles": [
+    "Source Engine 1.md",
     "Garrys Mod.md",
     "$ssbump.md",
     "$rimlight.md",
@@ -224,7 +225,6 @@
     "$envmap.md",
     "$basetexture.md",
     "$phong.md",
-    "Source Engine 1.md",
     "Введение в Source Engine 1.md",
     "Без названия.base",
     "Без названия 1.base",
