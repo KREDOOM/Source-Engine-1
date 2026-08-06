@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ragdoll.md",
+                "file": "Bodygroups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ragdoll"
+              "title": "Bodygroups"
             }
           }
         ],
@@ -244,8 +244,8 @@
   },
   "active": "f631494813a457f0",
   "lastOpenFiles": [
-    "Proxies.md",
     "Ragdoll.md",
+    "Proxies.md",
     "LOD.md",
     "PBR.md",
     "Bodygroups.md",
