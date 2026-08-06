@@ -11,53 +11,14 @@
             "id": "4b45d62d1b40a492",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "$bumpmap.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/translate/data.json",
+                "bFile": ".obsidian/plugins/translate/data.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "$bumpmap"
-            }
-          }
-        ]
-      },
-      {
-        "id": "a7aac21f58facc04",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "33a7ee5e96048bd1",
-            "type": "leaf",
-            "state": {
-              "type": "translator-view",
-              "state": {
-                "language_from": "auto",
-                "language_to": "ru",
-                "translation_service": "google_translate",
-                "auto_translate": false,
-                "apply_glossary": false,
-                "view_mode": 0,
-                "filter_mode": 0,
-                "show_attribution": false,
-                "top_buttons": [
-                  "change-service",
-                  "automatic-translation",
-                  "change-layout",
-                  "apply-filter",
-                  "open-settings"
-                ],
-                "left_buttons": [
-                  "paste",
-                  "clear"
-                ],
-                "right_buttons": [
-                  "copy"
-                ]
-              },
-              "icon": "google_translate",
-              "title": "Google Translate"
+              "icon": "diff",
+              "title": "Diff: data.json  (Working Tree)"
             }
           }
         ]
@@ -234,10 +195,17 @@
       "translate:Open translation view": false
     }
   },
-  "active": "33a7ee5e96048bd1",
+  "active": "4b45d62d1b40a492",
   "lastOpenFiles": [
-    "$basetexture.md",
     "$bumpmap.md",
+    "$detail.md",
+    "$envmapmask.md",
+    "Текстуры и материалы.md",
+    "Шейдеры.md",
+    "PBR.md",
+    "Source Engine 1.md",
+    "VertexLitGeneric.md",
+    "$basetexture.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
@@ -255,14 +223,10 @@
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "$envmapmask.md",
-    "$detail.md",
     "_resources/Jackal_Normal.png",
-    "PBR.md",
     "_resources/Pasted image 20260712183119.png",
     "_resources/PBR_to_BlinnPhong.resources/XXXXXX-Jackal_AO.png",
     "_resources/Jackal_AO.jpg",
-    "Текстуры и материалы.md",
     "_resources/PBR_to_BlinnPhong.sbs.algautosave",
     "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_Roughness.png",
     "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_Normal.png",
@@ -270,13 +234,10 @@
     "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_BaseColor.png",
     "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_AO.png",
     "_resources/PBR_to_BlinnPhong.resources.algautosave",
-    "Шейдеры.md",
     "_resources/PBR_to_BlinnPhong.sbs",
     "_resources/PBR_to_BlinnPhong.resources/XXXXXX-Jackal_Roughness.png",
     "_resources/PBR_to_BlinnPhong.resources",
-    "Source Engine 1.md",
     "шейдера.md",
-    "VertexLitGeneric.md",
     "Без названия.base",
     "basetexture.md",
     "_resources"
