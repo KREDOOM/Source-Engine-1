@@ -25,10 +25,14 @@
             "id": "9e753895502da1fd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "Garrys Mod.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Garrys Mod"
             }
           }
         ],
@@ -207,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e753895502da1fd",
+  "active": "f774bf5bc84a8500",
   "lastOpenFiles": [
     "Современный инструментарий.md",
     "Шейдеры.md",
