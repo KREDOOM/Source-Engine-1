@@ -1,19 +1,19 @@
 {
-  "commitMessage": "vault backup: {{date}}",
+  "commitMessage": "Автор обнавления: {{hostname}}\nКол.во изменённых файлов: {{numFiles}}\nДата: {{date}}",
   "autoCommitMessage": "vault backup: {{date}}",
   "commitMessageScript": "",
-  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "commitDateFormat": "YYYY.MM.DD HH:mm",
   "autoSaveInterval": 1,
   "autoPushInterval": 0,
-  "autoPullInterval": 1,
-  "autoPullOnBoot": false,
+  "autoPullInterval": 0,
+  "autoPullOnBoot": true,
   "autoCommitOnlyStaged": true,
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
   "showErrorNotices": true,
   "disablePopupsForNoChanges": false,
-  "listChangedFilesInMessageBody": false,
+  "listChangedFilesInMessageBody": true,
   "showStatusBar": true,
   "updateSubmodules": true,
   "syncMethod": "merge",
@@ -36,9 +36,9 @@
   "dateInHistoryView": true,
   "diffStyle": "split",
   "hunks": {
-    "showSigns": false,
-    "hunkCommands": false,
-    "statusBar": "disabled"
+    "showSigns": true,
+    "hunkCommands": true,
+    "statusBar": "colored"
   },
   "lineAuthor": {
     "show": false,
