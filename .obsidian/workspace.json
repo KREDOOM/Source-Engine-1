@@ -25,10 +25,14 @@
             "id": "9e753895502da1fd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "Source Engine 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Source Engine 1"
             }
           }
         ],
@@ -209,9 +213,11 @@
   },
   "active": "9e753895502da1fd",
   "lastOpenFiles": [
+    "Garrys Mod.md",
+    "$ssbump.md",
+    "$rimlight.md",
     "Модели.md",
     "README.md",
-    "$rimlight.md",
     "Шейдеры.md",
     "Без названия.md",
     "$modelname.md",
@@ -219,7 +225,6 @@
     "$basetexture.md",
     "$phong.md",
     "Source Engine 1.md",
-    "Garrys Mod.md",
     "Введение в Source Engine 1.md",
     "Без названия.base",
     "Без названия 1.base",
@@ -236,7 +241,6 @@
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
     "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "_resources/Jackal_Normal.png",
