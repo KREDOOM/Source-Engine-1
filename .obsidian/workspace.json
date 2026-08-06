@@ -11,14 +11,14 @@
             "id": "b5424cbf3483d8ee",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Bodygroups.md",
-                "bFile": "Bodygroups.md",
-                "aRef": ""
+                "file": "Bodygroups.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Bodygroups  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Bodygroups"
             }
           },
           {
@@ -211,11 +211,12 @@
   },
   "active": "b5424cbf3483d8ee",
   "lastOpenFiles": [
+    "Garrys Mod.md",
+    "Bodygroups.md",
+    "README.md",
     "$color2.md",
     "$ssbump.md",
     "Source Engine 1.md",
-    "Garrys Mod.md",
-    "Bodygroups.md",
     "Ragdoll.md",
     "Proxies.md",
     "LOD.md",
@@ -244,7 +245,6 @@
     "Obsidia_Source_Engine/$envmapmask.md",
     "Obsidia_Source_Engine/$envmap.md",
     "Obsidia_Source_Engine/$detail.md",
-    "Obsidia_Source_Engine/$bumpmap.md",
     "Obsidia_Source_Engine",
     "Без названия.base",
     "Без названия 1.base",
