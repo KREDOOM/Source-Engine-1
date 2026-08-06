@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4447035a9a3bffd2",
+        "id": "08b44cd4a84937f4",
         "type": "tabs",
         "children": [
           {
-            "id": "7302e13aba3680ac",
+            "id": "513028d9509064b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$basetexture.md",
+                "file": "Source Engine 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "$basetexture"
+              "title": "Source Engine 1"
             }
           }
         ]
@@ -71,7 +71,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Закладки"
             }
@@ -96,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "$basetexture.md",
+                "file": "Source Engine 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для $basetexture"
+              "title": "Обратные ссылки"
             }
           },
           {
@@ -115,12 +118,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "$basetexture.md",
+                "file": "Source Engine 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из $basetexture"
+              "title": "Исходящие ссылки"
             }
           },
           {
@@ -158,17 +161,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "$basetexture.md",
-                "followCursor": false,
+                "file": "Source Engine 1.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура $basetexture"
+              "title": "Структура"
             }
           },
           {
-            "id": "c2514867597fb24a",
+            "id": "8a4edf4eb7aae36d",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -196,36 +199,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7302e13aba3680ac",
+  "active": "8a4edf4eb7aae36d",
   "lastOpenFiles": [
+    "Obsidia_Source_Engine/Шейдеры.md",
+    "Obsidia_Source_Engine/Текстуры и материалы.md",
+    "Obsidia_Source_Engine/Современный инструментарий.md",
+    "Obsidia_Source_Engine/Модели.md",
+    "Obsidia_Source_Engine/_resources/RE_Engine.sbs",
+    "Obsidia_Source_Engine/_resources/PBR_to_BlinnPhong.sbs",
+    "Obsidia_Source_Engine/_resources/Jackal_Roughness.png",
+    "Obsidia_Source_Engine/_resources/Jackal_Normal.png",
+    "Obsidia_Source_Engine/_resources/Jackal_Metallic.png",
+    "Obsidia_Source_Engine/_resources/Jackal_BaseColor.png",
+    "Obsidia_Source_Engine/_resources/Jackal_AO.jpg",
+    "Obsidia_Source_Engine/_resources",
+    "Obsidia_Source_Engine/Source Engine 1.md",
+    "Obsidia_Source_Engine/README.md",
+    "Obsidia_Source_Engine/Proxies.md",
+    "Obsidia_Source_Engine/PBR.md",
+    "Obsidia_Source_Engine/Garrys Mod.md",
+    "Obsidia_Source_Engine/$ssbump.md",
+    "Obsidia_Source_Engine/$rimlight.md",
+    "Obsidia_Source_Engine/$phong.md",
+    "Obsidia_Source_Engine/$envmapmask.md",
+    "Obsidia_Source_Engine/$envmap.md",
+    "Obsidia_Source_Engine/$detail.md",
+    "Obsidia_Source_Engine/$bumpmap.md",
+    "Obsidia_Source_Engine/$basetexture.md",
+    "Obsidia_Source_Engine",
+    "Garrys Mod.md",
+    "$bumpmap.md",
+    "PBR.md",
+    "$basetexture.md",
     "Модели.md",
     "README.md",
     "Современный инструментарий.md",
     "Source Engine 1.md",
-    "Garrys Mod.md",
     "Шейдеры.md",
-    "PBR.md",
-    "Proxies.md",
-    "$basetexture.md",
-    "$bumpmap.md",
-    "$detail.md",
-    "$envmap.md",
-    "$envmapmask.md",
-    "$phong.md",
-    "$rimlight.md",
-    "Текстуры и материалы.md",
-    "$ssbump.md",
-    "$modelname.md",
-    "Введение в Source Engine 1.md",
     "Без названия.base",
     "Без названия 1.base",
-    "VertexLitGeneric.md",
-    "(bumpmap.md",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "_resources/Jackal_Normal.png",
@@ -234,14 +246,6 @@
     "_resources/Jackal_AO.jpg",
     "_resources/PBR_to_BlinnPhong.sbs.algautosave",
     "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_Roughness.png",
-    "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_Normal.png",
-    "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_Metallic.png",
-    "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_BaseColor.png",
-    "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_AO.png",
-    "_resources/PBR_to_BlinnPhong.resources.algautosave",
-    "_resources/PBR_to_BlinnPhong.sbs",
-    "_resources/PBR_to_BlinnPhong.resources/XXXXXX-Jackal_Roughness.png",
-    "_resources/PBR_to_BlinnPhong.resources",
-    "_resources"
+    "_resources/PBR_to_BlinnPhong.resources.algautosave"
   ]
 }
