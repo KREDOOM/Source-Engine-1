@@ -8,63 +8,30 @@
         "type": "tabs",
         "children": [
           {
+            "id": "b5424cbf3483d8ee",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Bodygroups.md",
+                "bFile": "Bodygroups.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Bodygroups  (Working Tree)"
+            }
+          },
+          {
             "id": "513028d9509064b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Source Engine 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Source Engine 1"
-            }
-          },
-          {
-            "id": "a0567cb29a09eb4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bodygroups.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bodygroups"
-            }
-          },
-          {
-            "id": "baf69396b523b21c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LOD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LOD"
-            }
-          },
-          {
-            "id": "f631494813a457f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bodygroups.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bodygroups"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,15 +209,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f631494813a457f0",
+  "active": "b5424cbf3483d8ee",
   "lastOpenFiles": [
+    "$color2.md",
+    "$ssbump.md",
+    "Source Engine 1.md",
+    "Garrys Mod.md",
+    "Bodygroups.md",
     "Ragdoll.md",
     "Proxies.md",
     "LOD.md",
     "PBR.md",
-    "Bodygroups.md",
     "Современный инструментарий.md",
-    "Source Engine 1.md",
     "Obsidia_Source_Engine/Шейдеры.md",
     "Obsidia_Source_Engine/Текстуры и материалы.md",
     "Obsidia_Source_Engine/Современный инструментарий.md",
@@ -275,10 +245,7 @@
     "Obsidia_Source_Engine/$envmap.md",
     "Obsidia_Source_Engine/$detail.md",
     "Obsidia_Source_Engine/$bumpmap.md",
-    "Obsidia_Source_Engine/$basetexture.md",
     "Obsidia_Source_Engine",
-    "Garrys Mod.md",
-    "$bumpmap.md",
     "Без названия.base",
     "Без названия 1.base",
     "copilot/copilot-custom-prompts",
