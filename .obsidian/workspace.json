@@ -11,10 +11,14 @@
             "id": "1b71568581477565",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "$detail.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "$detail"
             }
           },
           {
@@ -209,8 +213,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b71568581477565",
+  "active": "f774bf5bc84a8500",
   "lastOpenFiles": [
+    "$emissiveblend.md",
+    "$envmap.md",
     "$envmapmask.md",
     "$selfillum.md",
     "Динамическая покраска моделей.md",
@@ -218,8 +224,6 @@
     "$phong.md",
     "$color2.md",
     "$ssbump.md",
-    "$emissiveblend.md",
-    "$envmap.md",
     "Bodygroups.md",
     "Garrys Mod.md",
     "README.md",
