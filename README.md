@@ -38,7 +38,7 @@ graph TD
     bumpmap <--> phong
     phong <--> rimlight
     envmapmask <--> envmap
-    phong x.x Confict .x. envmapmask
+    phong -.- |Критический конфликт| envmapmask
     Proxies --> basetexture
     Proxies --> detail
     GarrysMod --> Shaders
