@@ -97,7 +97,7 @@ graph TD
 
 1. Склонируйте данный репозиторий на свой ПК:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/KREDOOM/Source-Engine-1
    ```
 2. Откройте приложение **Obsidian**.
 3. Выберите **"Открыть папку как хранилище" (Open folder as vault)**.
