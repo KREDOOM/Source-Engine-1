@@ -11,14 +11,14 @@
             "id": "4b45d62d1b40a492",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "$basetexture.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "$basetexture"
             }
           }
         ]
@@ -199,12 +199,13 @@
   "lastOpenFiles": [
     "$bumpmap.md",
     "$basetexture.md",
+    "$phong.md",
+    "Source Engine 1.md",
     "$detail.md",
     "$envmapmask.md",
     "Текстуры и материалы.md",
     "Шейдеры.md",
     "PBR.md",
-    "Source Engine 1.md",
     "VertexLitGeneric.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
@@ -239,7 +240,6 @@
     "_resources/PBR_to_BlinnPhong.resources",
     "шейдера.md",
     "Без названия.base",
-    "basetexture.md",
     "_resources"
   ]
 }
