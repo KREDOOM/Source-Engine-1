@@ -35,7 +35,8 @@
               "title": "PBR"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,10 +214,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd5f79aa87295cda",
+  "active": "1b71568581477565",
   "lastOpenFiles": [
-    "PBR.md",
     "$phong.md",
+    "PBR.md",
     "$selfillum.md",
     "$color2.md",
     "$ssbump.md",
