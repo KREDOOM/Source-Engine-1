@@ -11,12 +11,14 @@
             "id": "1b71568581477565",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_resources/Jackal_Roughness.png"
+                "file": "$color2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Jackal_Roughness"
+              "icon": "lucide-file",
+              "title": "$color2"
             }
           }
         ]
@@ -199,8 +201,11 @@
   },
   "active": "1b71568581477565",
   "lastOpenFiles": [
-    "_resources/Jackal_Metallic.png",
+    "$bumpmap.md",
+    "_resources/Vort_emissive_chart.jpg",
+    "_resources/Specular.jpg",
     "_resources/Jackal_Roughness.png",
+    "_resources/Jackal_Metallic.png",
     "$envmapmask.md",
     "$envmap.md",
     "$phong.md",
@@ -212,9 +217,6 @@
     "$detail.md",
     "$color2.md",
     "$basetexture.md",
-    "$bumpmap.md",
-    "_resources/Specular.jpg",
-    "_resources/Vort_emissive_chart.jpg",
     "_resources/Detail.jpg",
     "Garrys Mod.md",
     "Bodygroups.md",
@@ -236,7 +238,6 @@
     "Obsidia_Source_Engine/_resources/Jackal_Normal.png",
     "Obsidia_Source_Engine/_resources/Jackal_Metallic.png",
     "Obsidia_Source_Engine/_resources/Jackal_BaseColor.png",
-    "Obsidia_Source_Engine/_resources/Jackal_AO.jpg",
     "Obsidia_Source_Engine/_resources",
     "Obsidia_Source_Engine",
     "Без названия.base",
