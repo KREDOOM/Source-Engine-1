@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "Текстуры и материалы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "Текстуры и материалы"
             }
           },
           {
@@ -212,11 +212,11 @@
       "random-note:Открыть случайную заметку": false
     }
   },
-  "active": "1b71568581477565",
+  "active": "f774bf5bc84a8500",
   "lastOpenFiles": [
+    "TODO.md",
     "PBR.md",
     "Современный инструментарий.md",
-    "TODO.md",
     "_resources/RE_Engine.sbs.algautosave",
     "Source Engine 1.md",
     "$emissiveblend.md",
