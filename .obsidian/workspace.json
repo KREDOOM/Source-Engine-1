@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "_resources/Jackal_Metallic.png"
+                "file": "_resources/Jackal_Roughness.png"
               },
               "icon": "lucide-image",
-              "title": "Jackal_Metallic"
+              "title": "Jackal_Roughness"
             }
           }
         ]
@@ -199,6 +199,7 @@
   },
   "active": "1b71568581477565",
   "lastOpenFiles": [
+    "_resources/Jackal_Metallic.png",
     "_resources/Jackal_Roughness.png",
     "$envmapmask.md",
     "$envmap.md",
@@ -242,7 +243,6 @@
     "Без названия 1.base",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "_resources/Jackal_Normal.png",
     "_resources/PBR_to_BlinnPhong.sbs.algautosave",
     "_resources/PBR_to_BlinnPhong.resources.algautosave"
   ]
