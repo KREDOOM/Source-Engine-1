@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$basetexture.md",
+                "file": "Source Engine 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "$basetexture"
+              "title": "Source Engine 1"
             }
           }
         ]
@@ -200,13 +200,13 @@
   },
   "active": "722f9f83e9b3ca5e",
   "lastOpenFiles": [
+    "$basetexture.md",
     "$rimlight.md",
     "Source Engine 1.md",
     "TODO.md",
     "Шейдеры.md",
     "Ragdoll.md",
     "README.md",
-    "$basetexture.md",
     "PBR.md",
     "$ssbump.md",
     "$bumpmap.md",
