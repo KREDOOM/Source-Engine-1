@@ -1,4 +1,4 @@
-- [ ] Доделать [Реверс-инжиниринг текстур Warframe.](Warframe_color_reconstruction.sbs)
-- [ ] Улучшить [Конвертирование PBR в Blinn-Phong.](PBR_to_BlinnPhong.sbs)
-- [ ] Улучшить [Конвертирование текстур из Re-Engine в Source Engine 1](RE_Engine.sbs) используя 
+- [ ] Доделать [Реверс-инжиниринг текстур Warframe](Warframe_color_reconstruction.sbs) используя **Adobe Substance Designer**
+- [ ] Улучшить [Конвертирование PBR в Blinn-Phong](PBR_to_BlinnPhong.sbs) используя **Adobe Substance Designer**
+- [ ] Улучшить [Конвертирование текстур из Re-Engine в Source Engine 1](RE_Engine.sbs) используя **Adobe Substance Designer**
 - [ ] Нужно больше активных участников.
