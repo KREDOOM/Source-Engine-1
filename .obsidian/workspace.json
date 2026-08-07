@@ -11,10 +11,14 @@
             "id": "1b71568581477565",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
             }
           },
           {
@@ -31,8 +35,7 @@
               "title": "TODO"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,12 +212,12 @@
       "random-note:Открыть случайную заметку": false
     }
   },
-  "active": "f9e0966626853feb",
+  "active": "1b71568581477565",
   "lastOpenFiles": [
+    "TODO.md",
     "_resources/RE_Engine.sbs.algautosave",
     "Source Engine 1.md",
     "$emissiveblend.md",
-    "TODO.md",
     "PBR.md",
     "$selfillum.md",
     "Tasks Plugin - Просмотреть и проверить свои статусы 2026-08-07 12-07-56.md",
