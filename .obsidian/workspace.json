@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Engine 1.md",
+                "file": "$rimlight.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Source Engine 1"
+              "title": "$rimlight"
             }
           }
         ]
@@ -200,6 +200,9 @@
   },
   "active": "722f9f83e9b3ca5e",
   "lastOpenFiles": [
+    "Source Engine 1.md",
+    "TODO.md",
+    "Шейдеры.md",
     "Ragdoll.md",
     "README.md",
     "$basetexture.md",
@@ -207,9 +210,7 @@
     "$ssbump.md",
     "$bumpmap.md",
     "$envmap.md",
-    "Source Engine 1.md",
     "$envmapmask.md",
-    "TODO.md",
     "$emissiveblend.md",
     "Текстуры и материалы.md",
     "$color2.md",
@@ -228,7 +229,6 @@
     "Tasks Plugin - Просмотреть и проверить свои статусы 2026-08-07 12-01-50.md",
     "07.08.2026.md",
     "Без названия.base",
-    "Proxies.md",
     "_resources/Warframe_color_reconstruction.sbs.algautosave",
     "_resources/Garry's_Mod_logo.png",
     "_resources/different-level-of-detail.jpg",
