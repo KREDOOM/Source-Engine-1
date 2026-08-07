@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Современный инструментарий.md",
+                "file": "Текстуры и материалы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Современный инструментарий"
+              "title": "Текстуры и материалы"
             }
           }
         ],
@@ -214,6 +214,7 @@
   },
   "active": "c7f9241872a7f34a",
   "lastOpenFiles": [
+    "Современный инструментарий.md",
     "$ssbump.md",
     "$selfillum.md",
     "$rimlight.md",
@@ -237,7 +238,6 @@
     "Ragdoll.md",
     "Proxies.md",
     "LOD.md",
-    "Современный инструментарий.md",
     "Obsidia_Source_Engine/Шейдеры.md",
     "Obsidia_Source_Engine/Текстуры и материалы.md",
     "Obsidia_Source_Engine/Современный инструментарий.md",
