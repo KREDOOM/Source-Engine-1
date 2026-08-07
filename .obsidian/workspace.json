@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PBR.md",
+                "file": "TODO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PBR"
+              "title": "TODO"
             }
           }
         ],
@@ -211,6 +211,7 @@
   },
   "active": "f9e0966626853feb",
   "lastOpenFiles": [
+    "PBR.md",
     "TODO.md",
     "$selfillum.md",
     "Tasks Plugin - Просмотреть и проверить свои статусы 2026-08-07 12-07-56.md",
@@ -224,7 +225,6 @@
     "Proxies.md",
     "$basetexture.md",
     "_resources/Warframe_color_reconstruction.sbs.algautosave",
-    "PBR.md",
     "$color2.md",
     "$emissiveblend.md",
     "$detail.md",
