@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$rimlight.md",
+                "file": "$basetexture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "$rimlight"
+              "title": "$basetexture"
             }
           }
         ]
@@ -200,6 +200,7 @@
   },
   "active": "722f9f83e9b3ca5e",
   "lastOpenFiles": [
+    "$rimlight.md",
     "Source Engine 1.md",
     "TODO.md",
     "Шейдеры.md",
@@ -216,7 +217,6 @@
     "$color2.md",
     "$detail.md",
     "$phong.md",
-    "$rimlight.md",
     "$selfillum.md",
     "Модели.md",
     "Bodygroups.md",
