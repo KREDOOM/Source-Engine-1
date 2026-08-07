@@ -2,3 +2,4 @@
 - [ ] Улучшить [Конвертирование PBR в Blinn-Phong](PBR_to_BlinnPhong.sbs) используя **Adobe Substance Designer**
 - [ ] Улучшить [Конвертирование текстур из Re-Engine в Source Engine 1](RE_Engine.sbs) используя **Adobe Substance Designer**
 - [ ] Нужно больше активных участников.
+- [ ] Присоединить всё это хранилище к СВД
