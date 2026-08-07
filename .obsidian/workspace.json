@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bodygroups.md",
+                "file": "$basetexture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bodygroups"
+              "title": "$basetexture"
             }
           }
         ]
@@ -201,6 +201,21 @@
   },
   "active": "1b71568581477565",
   "lastOpenFiles": [
+    "$bumpmap.md",
+    "$color2.md",
+    "$detail.md",
+    "$emissiveblend.md",
+    "$envmap.md",
+    "$envmapmask.md",
+    "$phong.md",
+    "$rimlight.md",
+    "$selfillum.md",
+    "$ssbump.md",
+    "Модели.md",
+    "Современный инструментарий.md",
+    "Текстуры и материалы.md",
+    "Шейдеры.md",
+    "Bodygroups.md",
     "Garrys Mod.md",
     "_resources/Garry's_Mod_logo.png",
     "LOD.md",
@@ -214,25 +229,11 @@
     "PBR.md",
     "_resources/PBR - Blinn-Phong.jpg",
     "_resources/619c780714c57124282edfbda6549a95.jpg",
-    "$color2.md",
-    "$bumpmap.md",
     "_resources/Vort_emissive_chart.jpg",
     "_resources/Specular.jpg",
     "_resources/Jackal_Roughness.png",
     "_resources/Jackal_Metallic.png",
-    "$envmapmask.md",
-    "$envmap.md",
-    "$phong.md",
-    "$rimlight.md",
-    "$ssbump.md",
-    "$selfillum.md",
-    "$emissiveblend.md",
-    "$detail.md",
     "$basetexture.md",
-    "Bodygroups.md",
-    "Шейдеры.md",
-    "Текстуры и материалы.md",
-    "Современный инструментарий.md",
     "Динамическая покраска моделей.md",
     "Obsidia_Source_Engine/Шейдеры.md",
     "Obsidia_Source_Engine/Текстуры и материалы.md",
