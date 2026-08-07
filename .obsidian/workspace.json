@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Текстуры и материалы.md",
+                "file": "Bodygroups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Текстуры и материалы"
+              "title": "Bodygroups"
             }
           }
         ],
@@ -214,8 +214,9 @@
   },
   "active": "c7f9241872a7f34a",
   "lastOpenFiles": [
-    "Современный инструментарий.md",
+    "Шейдеры.md",
     "Текстуры и материалы.md",
+    "Современный инструментарий.md",
     "$ssbump.md",
     "$selfillum.md",
     "$rimlight.md",
@@ -225,7 +226,6 @@
     "$emissiveblend.md",
     "_resources/Specular.jpg",
     "PBR.md",
-    "Шейдеры.md",
     "$basetexture.md",
     "$bumpmap.md",
     "$color2.md",
