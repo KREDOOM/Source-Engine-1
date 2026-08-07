@@ -11,30 +11,17 @@
             "id": "1b71568581477565",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "_resources/Specular.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "Specular"
-            }
-          },
-          {
-            "id": "c7f9241872a7f34a",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "$emissiveblend.md",
-                "mode": "source",
+                "file": "$envmapmask.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "$emissiveblend"
+              "title": "$envmapmask"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,8 +199,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c7f9241872a7f34a",
+  "active": "1b71568581477565",
   "lastOpenFiles": [
+    "$envmap.md",
+    "_resources/Specular.jpg",
+    "_resources/Vort_emissive_chart.jpg",
+    "$emissiveblend.md",
     "$detail.md",
     "_resources/Detail.jpg",
     "Garrys Mod.md",
@@ -226,9 +217,6 @@
     "$rimlight.md",
     "$phong.md",
     "$envmapmask.md",
-    "$envmap.md",
-    "$emissiveblend.md",
-    "_resources/Specular.jpg",
     "PBR.md",
     "$basetexture.md",
     "$bumpmap.md",
@@ -256,7 +244,6 @@
     "copilot",
     "_resources/Jackal_Normal.png",
     "_resources/Pasted image 20260712183119.png",
-    "_resources/PBR_to_BlinnPhong.resources/XXXXXX-Jackal_AO.png",
     "_resources/PBR_to_BlinnPhong.sbs.algautosave",
     "_resources/PBR_to_BlinnPhong.resources.algautosave"
   ]
