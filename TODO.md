@@ -1,6 +1,6 @@
-- [ ] Доделать [Реверс-инжиниринг текстур Warframe](Warframe_color_reconstruction.sbs) используя **Adobe Substance Designer**
-- [ ] Улучшить [Конвертирование PBR в Blinn-Phong](PBR_to_BlinnPhong.sbs) используя **Adobe Substance Designer**
-- [ ] Улучшить [Конвертирование текстур из Re-Engine в Source Engine 1](RE_Engine.sbs) используя **Adobe Substance Designer**
+- [ ] Доделать [Реверс-инжиниринг текстур Warframe](Warframe_color_reconstruction.sbs) используя **Adobe Substance Designer.**
+- [ ] Улучшить [Конвертирование PBR в Blinn-Phong](PBR_to_BlinnPhong.sbs) используя **Adobe Substance Designer.**
+- [ ] Улучшить [Конвертирование текстур из Re-Engine в Source Engine 1](RE_Engine.sbs) используя **Adobe Substance Designer.**
 - [ ] Нужно больше активных участников.
 - [ ] Присоединить всё это хранилище к CDL - Строительная организация инженерно-военного направления.
-- [ ] Предложить CDL сделать список участников и что
+- [ ] Предложить CDL сделать список участников и что они умеют.
