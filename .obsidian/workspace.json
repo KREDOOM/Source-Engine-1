@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$emissiveblend.md",
+                "file": "Source Engine 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "$emissiveblend"
+              "title": "Source Engine 1"
             }
           }
         ],
@@ -211,6 +211,7 @@
   },
   "active": "f9e0966626853feb",
   "lastOpenFiles": [
+    "$emissiveblend.md",
     "_resources/RE_Engine.sbs.algautosave",
     "TODO.md",
     "Source Engine 1.md",
@@ -228,7 +229,6 @@
     "$basetexture.md",
     "_resources/Warframe_color_reconstruction.sbs.algautosave",
     "$color2.md",
-    "$emissiveblend.md",
     "$detail.md",
     "Ragdoll.md",
     "$bumpmap.md",
@@ -255,7 +255,6 @@
     "Obsidia_Source_Engine",
     "Без названия 1.base",
     "copilot/copilot-custom-prompts",
-    "copilot",
-    "_resources/PBR_to_BlinnPhong.sbs.algautosave"
+    "copilot"
   ]
 }
