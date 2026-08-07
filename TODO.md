@@ -1,2 +1,2 @@
-- [ ] Доделать [Реверс-инжиниринг текстур Warframe|Warframe_color_reconstruction.sbs]
-- [ ] Улучшить [Старое в Новое|PBR_to_BlinnPhong.sbs][]()
+- [ ] Доделать [Реверс-инжиниринг текстур Warframe|Warframe_color_reconstruction.sbs)
+- [ ] Улучшить [Старое в Новое](PBR_to_BlinnPhong.sbs)
