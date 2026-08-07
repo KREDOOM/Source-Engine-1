@@ -1,4 +1,4 @@
-Это список того что нужно и/или рекомендуется сделать
+Это список того что нужно и/или рекомендуется сделать.
 Порядок выполнения неважен.
 - [ ] Доделать [Реверс-инжиниринг текстур Warframe](Warframe_color_reconstruction.sbs) используя **Adobe Substance Designer.**
 - [ ] Улучшить [Конвертирование PBR в Blinn-Phong](PBR_to_BlinnPhong.sbs) используя **Adobe Substance Designer.**
