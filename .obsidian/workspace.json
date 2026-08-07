@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Текстуры и материалы.md",
+                "file": "PBR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Текстуры и материалы"
+              "title": "PBR"
             }
           },
           {
@@ -213,8 +213,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f774bf5bc84a8500",
+  "active": "1b71568581477565",
   "lastOpenFiles": [
+    "Текстуры и материалы.md",
     "Шейдеры.md",
     "$basetexture.md",
     "$bumpmap.md",
@@ -248,7 +249,6 @@
     "Obsidia_Source_Engine/_resources/Jackal_BaseColor.png",
     "Obsidia_Source_Engine/_resources/Jackal_AO.jpg",
     "Obsidia_Source_Engine/_resources",
-    "Obsidia_Source_Engine/Source Engine 1.md",
     "Obsidia_Source_Engine",
     "Без названия.base",
     "Без названия 1.base",
