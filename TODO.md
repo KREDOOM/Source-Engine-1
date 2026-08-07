@@ -1,1 +1,6 @@
-#task Доделать [Warframe_color_reconstruction.sbs]
+- [ ] 🛫 2026-08-07 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] #task Доделать [Warframe_color_reconstruction.sbs]
