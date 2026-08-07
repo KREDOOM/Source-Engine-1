@@ -59,6 +59,23 @@
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
             }
+          },
+          {
+            "id": "47d1ae011ab557ee",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
           }
         ]
       }
@@ -185,15 +202,11 @@
       "graph:Граф": false,
       "switcher:Меню быстрого перехода": false,
       "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:Импорт Markdown-файлов": false,
-      "workspaces:Пространства": false,
-      "random-note:Открыть случайную заметку": false,
-      "zk-prefixer:Создать заметку с уникальным идентификатором": false
+      "random-note:Открыть случайную заметку": false
     }
   },
   "active": "f9e0966626853feb",
