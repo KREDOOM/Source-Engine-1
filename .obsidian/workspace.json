@@ -11,14 +11,14 @@
             "id": "1b71568581477565",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Без названия.base",
-                "bFile": "Без названия.base",
-                "aRef": ""
+                "file": "$envmapmask.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Без названия.base  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "$envmapmask"
             }
           }
         ]
@@ -199,17 +199,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f774bf5bc84a8500",
+  "active": "1b71568581477565",
   "lastOpenFiles": [
-    "Proxies.md",
+    "07.08.2026.md",
+    "$envmapmask.md",
     "Без названия.base",
+    "Proxies.md",
     "$basetexture.md",
     "_resources/Warframe_color_reconstruction.sbs.algautosave",
     "PBR.md",
     "$color2.md",
     "$emissiveblend.md",
     "$detail.md",
-    "$envmapmask.md",
     "$selfillum.md",
     "Ragdoll.md",
     "$bumpmap.md",
