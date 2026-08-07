@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "08b44cd4a84937f4",
+        "id": "58bdb78a616dd210",
         "type": "tabs",
         "children": [
           {
-            "id": "1b71568581477565",
+            "id": "722f9f83e9b3ca5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Текстуры и материалы.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Текстуры и материалы"
-            }
-          },
-          {
-            "id": "f9e0966626853feb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODO.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TODO"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
             }
           }
         ]
@@ -212,13 +194,15 @@
       "random-note:Открыть случайную заметку": false
     }
   },
-  "active": "1b71568581477565",
+  "active": "722f9f83e9b3ca5e",
   "lastOpenFiles": [
+    "TODO.md",
+    "$emissiveblend.md",
+    "Текстуры и материалы.md",
     "$basetexture.md",
     "$bumpmap.md",
     "$color2.md",
     "$detail.md",
-    "$emissiveblend.md",
     "$envmap.md",
     "$envmapmask.md",
     "$phong.md",
@@ -230,9 +214,7 @@
     "README.md",
     "Без названия",
     "Source Engine 1.md",
-    "TODO.md",
     "Garrys Mod.md",
-    "Текстуры и материалы.md",
     "PBR.md",
     "Современный инструментарий.md",
     "_resources/RE_Engine.sbs.algautosave",
