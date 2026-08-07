@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "$detail.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "$detail"
             }
           },
           {
@@ -212,35 +212,36 @@
       "random-note:Открыть случайную заметку": false
     }
   },
-  "active": "f774bf5bc84a8500",
+  "active": "1b71568581477565",
   "lastOpenFiles": [
+    "$color2.md",
+    "$bumpmap.md",
+    "$basetexture.md",
+    "$detail.md",
+    "$emissiveblend.md",
+    "$envmap.md",
+    "$envmapmask.md",
+    "$phong.md",
+    "$rimlight.md",
+    "$selfillum.md",
+    "Bodygroups.md",
+    "README.md",
     "Без названия",
     "Source Engine 1.md",
     "TODO.md",
-    "README.md",
     "Garrys Mod.md",
     "Текстуры и материалы.md",
     "PBR.md",
     "Современный инструментарий.md",
     "_resources/RE_Engine.sbs.algautosave",
-    "$emissiveblend.md",
-    "$selfillum.md",
     "Tasks Plugin - Просмотреть и проверить свои статусы 2026-08-07 12-07-56.md",
-    "$phong.md",
-    "$envmapmask.md",
     "Tasks Plugin - Просмотреть и проверить свои статусы 2026-08-07 12-01-52.md",
     "Tasks Plugin - Просмотреть и проверить свои статусы 2026-08-07 12-01-50.md",
     "07.08.2026.md",
     "Без названия.base",
     "Proxies.md",
-    "$basetexture.md",
     "_resources/Warframe_color_reconstruction.sbs.algautosave",
-    "$color2.md",
-    "$detail.md",
     "Ragdoll.md",
-    "$bumpmap.md",
-    "$envmap.md",
-    "$rimlight.md",
     "$ssbump.md",
     "Модели.md",
     "_resources/Garry's_Mod_logo.png",
@@ -258,7 +259,6 @@
     "Obsidia_Source_Engine/_resources",
     "Obsidia_Source_Engine",
     "Без названия 1.base",
-    "copilot/copilot-custom-prompts",
-    "copilot"
+    "copilot/copilot-custom-prompts"
   ]
 }
