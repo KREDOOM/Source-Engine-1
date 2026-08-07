@@ -49,7 +49,7 @@ _**Physically Based Rendering (PBR)**_ — это современный инд�
 - В **Substance Painter**: Создайте кастомный пресет экспорта (Export Preset). Настройте генерацию двух карт:
     1. `Input Map: Base Color` ➡️ RGB-каналы. `Input Map: Metallic` ➡️ Alpha-канал. (Назовите `_color`).
     2. `Input Map: Normal (с конвертацией в DirectX)` ➡️ RGB-каналы. `Input Map: Roughness (с инверсией)` ➡️ Alpha-канал. (Назовите `_normal`).
-- В **Adobe Substance 3D Designer**:![[PBR_to_BlinnPhong.sbs]]
+- В **Adobe Substance 3D Designer**: [Готовый шаблон](PBR_to_BlinnPhong.sbs)
 
 ---
 
