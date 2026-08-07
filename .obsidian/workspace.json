@@ -11,14 +11,14 @@
             "id": "1b71568581477565",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "PBR.md",
-                "mode": "preview",
-                "source": false
+                "aFile": "_resources/Warframe_color_reconstruction.sbs",
+                "bFile": "_resources/Warframe_color_reconstruction.sbs",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "PBR"
+              "icon": "diff",
+              "title": "Diff: Warframe_color_reconstruction.sbs  (Working Tree)"
             }
           }
         ]
@@ -199,8 +199,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f774bf5bc84a8500",
+  "active": "1b71568581477565",
   "lastOpenFiles": [
+    "PBR.md",
     "_resources/Warframe_color_reconstruction.sbs.algautosave",
     "$color2.md",
     "$emissiveblend.md",
@@ -228,7 +229,6 @@
     "Source Engine 1.md",
     "_resources/Source_engine_logo_and_wordmark.png",
     "_resources/450px-Prop_ragdoll.jpg",
-    "PBR.md",
     "_resources/PBR - Blinn-Phong.jpg",
     "_resources/619c780714c57124282edfbda6549a95.jpg",
     "_resources/Vort_emissive_chart.jpg",
@@ -245,7 +245,6 @@
     "Без названия 1.base",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "_resources/PBR_to_BlinnPhong.sbs.algautosave",
-    "_resources/PBR_to_BlinnPhong.resources.algautosave"
+    "_resources/PBR_to_BlinnPhong.sbs.algautosave"
   ]
 }
