@@ -1,6 +1,2 @@
-- [ ]  
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] #task Доделать [Warframe_color_reconstruction.sbs]
+- [ ] Доделать [Warframe_color_reconstruction.sbs]
+- [ ] Улучшить []
