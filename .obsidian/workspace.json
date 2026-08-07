@@ -11,14 +11,12 @@
             "id": "1b71568581477565",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "PBR.md",
-                "mode": "preview",
-                "source": false
+                "file": "_resources/Specular.jpg"
               },
-              "icon": "lucide-file",
-              "title": "PBR"
+              "icon": "lucide-image",
+              "title": "Specular"
             }
           },
           {
@@ -27,15 +25,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$selfillum.md",
+                "file": "$envmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "$selfillum"
+              "title": "$envmap"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,8 +212,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b71568581477565",
+  "active": "c7f9241872a7f34a",
   "lastOpenFiles": [
+    "$selfillum.md",
+    "_resources/Specular.jpg",
+    "$envmap.md",
+    "PBR.md",
     "Текстуры и материалы.md",
     "Шейдеры.md",
     "$basetexture.md",
@@ -222,11 +225,8 @@
     "$color2.md",
     "$detail.md",
     "$emissiveblend.md",
-    "$envmap.md",
     "$envmapmask.md",
-    "$selfillum.md",
     "Динамическая покраска моделей.md",
-    "PBR.md",
     "$phong.md",
     "$ssbump.md",
     "Bodygroups.md",
@@ -240,7 +240,6 @@
     "Obsidia_Source_Engine/Шейдеры.md",
     "Obsidia_Source_Engine/Текстуры и материалы.md",
     "Obsidia_Source_Engine/Современный инструментарий.md",
-    "Obsidia_Source_Engine/Модели.md",
     "Obsidia_Source_Engine/_resources/RE_Engine.sbs",
     "Obsidia_Source_Engine/_resources/PBR_to_BlinnPhong.sbs",
     "Obsidia_Source_Engine/_resources/Jackal_Roughness.png",
@@ -259,7 +258,6 @@
     "_resources/PBR_to_BlinnPhong.resources/XXXXXX-Jackal_AO.png",
     "_resources/Jackal_AO.jpg",
     "_resources/PBR_to_BlinnPhong.sbs.algautosave",
-    "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_Roughness.png",
     "_resources/PBR_to_BlinnPhong.resources.algautosave"
   ]
 }
