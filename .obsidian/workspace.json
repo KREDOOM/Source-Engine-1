@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Engine 1.md",
+                "file": "LOD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Source Engine 1"
+              "title": "LOD"
             }
           }
         ]
@@ -201,8 +201,11 @@
   },
   "active": "1b71568581477565",
   "lastOpenFiles": [
-    "_resources/Source_engine_logo_and_wordmark.png",
+    "Proxies.md",
     "Ragdoll.md",
+    "README.md",
+    "Source Engine 1.md",
+    "_resources/Source_engine_logo_and_wordmark.png",
     "_resources/450px-Prop_ragdoll.jpg",
     "PBR.md",
     "_resources/PBR - Blinn-Phong.jpg",
@@ -230,15 +233,11 @@
     "Текстуры и материалы.md",
     "Современный инструментарий.md",
     "Динамическая покраска моделей.md",
-    "README.md",
-    "Source Engine 1.md",
-    "Proxies.md",
     "LOD.md",
     "Obsidia_Source_Engine/Шейдеры.md",
     "Obsidia_Source_Engine/Текстуры и материалы.md",
     "Obsidia_Source_Engine/_resources/RE_Engine.sbs",
     "Obsidia_Source_Engine/_resources/PBR_to_BlinnPhong.sbs",
-    "Obsidia_Source_Engine/_resources/Jackal_Roughness.png",
     "Obsidia_Source_Engine/_resources",
     "Obsidia_Source_Engine",
     "Без названия.base",

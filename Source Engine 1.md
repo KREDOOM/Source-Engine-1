@@ -1,4 +1,5 @@
-## ![[Source_engine_logo_and_wordmark.png]]Введение в Source Engine 1
+![[Source_engine_logo_and_wordmark.png]]
+## Введение в Source Engine 1
 
 [[README]] — Документация репозитория базы знаний.
 
