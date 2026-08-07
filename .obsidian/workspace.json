@@ -199,10 +199,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b71568581477565",
+  "active": "f774bf5bc84a8500",
   "lastOpenFiles": [
-    "07.08.2026.md",
     "$envmapmask.md",
+    "Без названия.md",
+    "07.08.2026.md",
     "Без названия.base",
     "Proxies.md",
     "$basetexture.md",
@@ -238,7 +239,6 @@
     "_resources/Jackal_Roughness.png",
     "_resources/Jackal_Metallic.png",
     "Динамическая покраска моделей.md",
-    "Obsidia_Source_Engine/Шейдеры.md",
     "Obsidia_Source_Engine/_resources/RE_Engine.sbs",
     "Obsidia_Source_Engine/_resources/PBR_to_BlinnPhong.sbs",
     "Obsidia_Source_Engine/_resources",
