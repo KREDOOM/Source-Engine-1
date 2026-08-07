@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$bumpmap.md",
+                "file": "PBR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "$bumpmap"
+              "title": "PBR"
             }
           }
         ]
@@ -200,21 +200,21 @@
   },
   "active": "722f9f83e9b3ca5e",
   "lastOpenFiles": [
+    "$ssbump.md",
+    "$basetexture.md",
+    "$bumpmap.md",
     "$envmap.md",
     "Source Engine 1.md",
     "$envmapmask.md",
     "TODO.md",
     "$emissiveblend.md",
     "Текстуры и материалы.md",
-    "$basetexture.md",
-    "$bumpmap.md",
     "$color2.md",
     "$detail.md",
     "$phong.md",
     "$rimlight.md",
     "$selfillum.md",
     "Модели.md",
-    "$ssbump.md",
     "Bodygroups.md",
     "README.md",
     "Без названия",
