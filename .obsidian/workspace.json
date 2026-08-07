@@ -11,28 +11,17 @@
             "id": "1b71568581477565",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "$basetexture.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Без названия.base",
+                "bFile": "Без названия.base",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "$basetexture"
-            }
-          },
-          {
-            "id": "1caa0e552f7d589e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "icon": "diff",
+              "title": "Diff: Без названия.base  (Working Tree)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,8 +199,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1caa0e552f7d589e",
+  "active": "f774bf5bc84a8500",
   "lastOpenFiles": [
+    "Proxies.md",
+    "Без названия.base",
     "$basetexture.md",
     "_resources/Warframe_color_reconstruction.sbs.algautosave",
     "PBR.md",
@@ -221,7 +212,6 @@
     "$envmapmask.md",
     "$selfillum.md",
     "Ragdoll.md",
-    "Proxies.md",
     "$bumpmap.md",
     "$envmap.md",
     "$phong.md",
@@ -252,7 +242,6 @@
     "Obsidia_Source_Engine/_resources/PBR_to_BlinnPhong.sbs",
     "Obsidia_Source_Engine/_resources",
     "Obsidia_Source_Engine",
-    "Без названия.base",
     "Без названия 1.base",
     "copilot/copilot-custom-prompts",
     "copilot",
