@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Garrys Mod.md",
+                "file": "Bodygroups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Garrys Mod"
+              "title": "Bodygroups"
             }
           }
         ]
@@ -199,9 +199,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a4edf4eb7aae36d",
+  "active": "f631494813a457f0",
   "lastOpenFiles": [
     "Garrys Mod.md",
+    "LOD.md",
+    "TODO.md",
     "conflict-files-obsidian-git.md",
     "_resources/different-level-of-detail.jpg",
     "_resources/Warframe_color_reconstruction.sbs",
@@ -228,10 +230,8 @@
     "VMT/$bumpmap.md",
     "VMT/$basetexture.md",
     "VMT",
-    "TODO.md",
     "Proxies.md",
     "PBR.md",
-    "LOD.md",
     "Шейдеры.md",
     "Текстуры и материалы.md",
     "Современный инструментарий.md",
