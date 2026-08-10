@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Garrys Mod"
             }
+          },
+          {
+            "id": "4ca512d12693b3ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,53 +214,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f631494813a457f0",
+  "active": "4ca512d12693b3ea",
   "lastOpenFiles": [
+    "Garrys Mod.md",
+    "conflict-files-obsidian-git.md",
+    "_resources/different-level-of-detail.jpg",
+    "_resources/Warframe_color_reconstruction.sbs",
+    "_resources/Vort_emissive_chart.jpg",
+    "_resources/Specular.jpg",
+    "_resources/Source_engine_logo_and_wordmark.png",
+    "_resources/PBR - Blinn-Phong.jpg",
+    "_resources/Heavy_rim.jpg",
+    "_resources/Garry's_Mod_logo.png",
+    "_resources/Detail.jpg",
+    "_resources/450px-Prop_ragdoll.jpg",
+    "VMT/Шейдеры.md",
+    "VMT/Proxies.md",
+    "VMT/PBR.md",
+    "VMT/$ssbump.md",
+    "VMT/$selfillum.md",
+    "VMT/$phong.md",
+    "VMT/$rimlight.md",
+    "VMT/$detail.md",
+    "VMT/$envmapmask.md",
+    "VMT/$envmap.md",
+    "VMT/$color2.md",
+    "VMT/$emissiveblend.md",
+    "VMT/$bumpmap.md",
+    "VMT/$basetexture.md",
+    "VMT",
+    "TODO.md",
     "Proxies.md",
     "PBR.md",
     "LOD.md",
-    "Garrys Mod.md",
     "Шейдеры.md",
     "Текстуры и материалы.md",
     "Современный инструментарий.md",
     "$ssbump.md",
     "$rimlight.md",
     "$phong.md",
-    "$envmapmask.md",
-    "$envmap.md",
-    "$basetexture.md",
-    "$bumpmap.md",
-    "$detail.md",
-    "Bodygroups.md",
-    "Ragdoll.md",
-    "Source Engine 1.md",
-    "Obsidia_Source_Engine/Шейдеры.md",
-    "Obsidia_Source_Engine/Текстуры и материалы.md",
-    "Obsidia_Source_Engine/Современный инструментарий.md",
-    "Obsidia_Source_Engine/Модели.md",
     "Obsidia_Source_Engine/_resources/RE_Engine.sbs",
     "Obsidia_Source_Engine/_resources/PBR_to_BlinnPhong.sbs",
     "Obsidia_Source_Engine/_resources/Jackal_Roughness.png",
-    "Obsidia_Source_Engine/_resources/Jackal_Normal.png",
-    "Obsidia_Source_Engine/_resources/Jackal_Metallic.png",
-    "Obsidia_Source_Engine/_resources/Jackal_BaseColor.png",
-    "Obsidia_Source_Engine/_resources/Jackal_AO.jpg",
     "Obsidia_Source_Engine/_resources",
-    "Obsidia_Source_Engine/Source Engine 1.md",
-    "Obsidia_Source_Engine/README.md",
-    "Obsidia_Source_Engine/Proxies.md",
-    "Obsidia_Source_Engine/PBR.md",
     "Obsidia_Source_Engine",
     "Без названия.base",
     "Без названия 1.base",
     "copilot/copilot-custom-prompts",
-    "copilot",
-    "_resources/Jackal_Normal.png",
-    "_resources/Pasted image 20260712183119.png",
-    "_resources/PBR_to_BlinnPhong.resources/XXXXXX-Jackal_AO.png",
-    "_resources/Jackal_AO.jpg",
-    "_resources/PBR_to_BlinnPhong.sbs.algautosave",
-    "_resources/PBR_to_BlinnPhong.resources.algautosave/XXXXXX-Jackal_Roughness.png",
-    "_resources/PBR_to_BlinnPhong.resources.algautosave"
+    "copilot"
   ]
 }
