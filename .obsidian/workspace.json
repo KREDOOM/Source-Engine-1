@@ -75,8 +75,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-bookmark",
-              "title": "Закладки"
+              "icon": "lucide-ghost",
+              "title": "bookmarks"
             }
           }
         ]
@@ -189,10 +189,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "random-note:Открыть случайную заметку": false,
       "graph:Граф": false,
       "switcher:Меню быстрого перехода": false,
       "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
