@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bodygroups.md",
+                "file": "VMT/$bumpmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bodygroups"
+              "title": "$bumpmap"
             }
           }
         ]
@@ -201,6 +201,8 @@
   },
   "active": "f631494813a457f0",
   "lastOpenFiles": [
+    "VMT/PBR.md",
+    "Bodygroups.md",
     "Garrys Mod.md",
     "LOD.md",
     "TODO.md",
@@ -217,7 +219,6 @@
     "_resources/450px-Prop_ragdoll.jpg",
     "VMT/Шейдеры.md",
     "VMT/Proxies.md",
-    "VMT/PBR.md",
     "VMT/$ssbump.md",
     "VMT/$selfillum.md",
     "VMT/$phong.md",
@@ -237,7 +238,6 @@
     "Современный инструментарий.md",
     "$ssbump.md",
     "$rimlight.md",
-    "$phong.md",
     "Obsidia_Source_Engine/_resources/RE_Engine.sbs",
     "Obsidia_Source_Engine/_resources/PBR_to_BlinnPhong.sbs",
     "Obsidia_Source_Engine/_resources/Jackal_Roughness.png",
