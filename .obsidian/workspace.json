@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VMT/$emissiveblend.md",
+                "file": "VMT/Шейдеры.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "$emissiveblend"
+              "title": "Шейдеры"
             }
           }
         ]
@@ -201,10 +201,12 @@
   },
   "active": "f631494813a457f0",
   "lastOpenFiles": [
-    "VMT/$color2.md",
-    "VMT/$emissiveblend.md",
-    "TODO.md",
     "VMT/$basetexture.md",
+    "VMT/$selfillum.md",
+    "VMT/$ssbump.md",
+    "VMT/$emissiveblend.md",
+    "VMT/$color2.md",
+    "TODO.md",
     "Source Engine 1.md",
     "VMT/$bumpmap.md",
     "VMT/PBR.md",
@@ -224,8 +226,6 @@
     "_resources/450px-Prop_ragdoll.jpg",
     "VMT/Шейдеры.md",
     "VMT/Proxies.md",
-    "VMT/$ssbump.md",
-    "VMT/$selfillum.md",
     "VMT/$phong.md",
     "VMT/$rimlight.md",
     "VMT/$detail.md",
