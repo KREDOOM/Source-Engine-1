@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Современный инструментарий.md",
+                "file": "VMT/PBR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Современный инструментарий"
+              "title": "PBR"
             }
           }
         ]
@@ -201,6 +201,7 @@
   },
   "active": "f631494813a457f0",
   "lastOpenFiles": [
+    "Современный инструментарий.md",
     "VMT/PBR.md",
     "VMT/Шейдеры.md",
     "VMT/$basetexture.md",
@@ -236,7 +237,6 @@
     "PBR.md",
     "Шейдеры.md",
     "Текстуры и материалы.md",
-    "Современный инструментарий.md",
     "$ssbump.md",
     "Obsidia_Source_Engine/_resources/RE_Engine.sbs",
     "Obsidia_Source_Engine/_resources/PBR_to_BlinnPhong.sbs",
