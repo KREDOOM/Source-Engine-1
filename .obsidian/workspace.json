@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VMT/Шейдеры.md",
+                "file": "Современный инструментарий.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Шейдеры"
+              "title": "Современный инструментарий"
             }
           }
         ]
@@ -201,6 +201,8 @@
   },
   "active": "f631494813a457f0",
   "lastOpenFiles": [
+    "VMT/PBR.md",
+    "VMT/Шейдеры.md",
     "VMT/$basetexture.md",
     "VMT/$selfillum.md",
     "VMT/$ssbump.md",
@@ -209,7 +211,6 @@
     "TODO.md",
     "Source Engine 1.md",
     "VMT/$bumpmap.md",
-    "VMT/PBR.md",
     "Bodygroups.md",
     "Garrys Mod.md",
     "LOD.md",
@@ -224,7 +225,6 @@
     "_resources/Garry's_Mod_logo.png",
     "_resources/Detail.jpg",
     "_resources/450px-Prop_ragdoll.jpg",
-    "VMT/Шейдеры.md",
     "VMT/Proxies.md",
     "VMT/$phong.md",
     "VMT/$rimlight.md",
