@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VMT/PBR.md",
+                "file": "VMT/$phong.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PBR"
+              "title": "$phong"
             }
           }
         ]
@@ -199,11 +199,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f774bf5bc84a8500",
+  "active": "f631494813a457f0",
   "lastOpenFiles": [
+    "VMT/PBR.md",
     "_resources/Warframe_color_reconstruction.sbs.algautosave",
     "Современный инструментарий.md",
-    "VMT/PBR.md",
     "VMT/Шейдеры.md",
     "VMT/$basetexture.md",
     "VMT/$selfillum.md",
@@ -245,7 +245,6 @@
     "Obsidia_Source_Engine",
     "Без названия.base",
     "Без названия 1.base",
-    "copilot/copilot-custom-prompts",
-    "copilot"
+    "copilot/copilot-custom-prompts"
   ]
 }
