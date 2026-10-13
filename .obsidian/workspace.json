@@ -199,8 +199,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f631494813a457f0",
+  "active": "f774bf5bc84a8500",
   "lastOpenFiles": [
+    "_resources/Warframe_color_reconstruction.sbs.algautosave",
     "Современный инструментарий.md",
     "VMT/PBR.md",
     "VMT/Шейдеры.md",
@@ -237,7 +238,6 @@
     "PBR.md",
     "Шейдеры.md",
     "Текстуры и материалы.md",
-    "$ssbump.md",
     "Obsidia_Source_Engine/_resources/RE_Engine.sbs",
     "Obsidia_Source_Engine/_resources/PBR_to_BlinnPhong.sbs",
     "Obsidia_Source_Engine/_resources/Jackal_Roughness.png",
