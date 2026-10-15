@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bodygroups.md",
+                "file": "Модели.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bodygroups"
+              "title": "Модели"
             }
           }
         ],
@@ -212,8 +212,8 @@
   },
   "active": "fcc6d54ca916bf55",
   "lastOpenFiles": [
-    "Garrys Mod.md",
     "Bodygroups.md",
+    "Garrys Mod.md",
     "VMT/$phong.md",
     "VMT/PBR.md",
     "_resources/Warframe_color_reconstruction.sbs.algautosave",
