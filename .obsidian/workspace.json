@@ -31,7 +31,8 @@
               "title": "Инструменты"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f631494813a457f0",
+  "active": "fcc6d54ca916bf55",
   "lastOpenFiles": [
     "Инструменты.md",
     "Модели.md",
