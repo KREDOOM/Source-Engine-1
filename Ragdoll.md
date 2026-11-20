@@ -17,9 +17,7 @@
 
 Базовый синтаксис блока `$collisionjoints`:
 
-qc
-
-```
+```qc
 $collisionjoints "имя_физического_меша.smd"
 {
 	$mass 85.0                            // Общая масса тела в килограммах
@@ -52,9 +50,7 @@ $collisionjoints "имя_физического_меша.smd"
 
 Ниже приведен фрагмент реального `.qc` файла для настройки базовых суставов (таза и бедра) человекоподобного персонажа на стандартном скелете ValveBiped.
 
-qc
-
-```
+```qc
 $modelname "player/custom_ragdoll.mdl"
 $body "body" "soldier_reference.smd"
 $cdmaterials "models/player/custom_soldier/"

@@ -1,4 +1,4 @@
-![[Jackal_Metallic.png]]
+![[Jackal_Metallic.jpg]]
 ## $envmapmask
 
 Это параметр [[Шейдеры|шейдера]] материала в движке [[Source Engine 1|Source]], определяющий текстурную маску (Specular Map) для зеркальных отражений кубмапов ([[$envmap]]). Она указывает движку, какие участки поверхности являются глянцевыми и отражают окружение, а какие остаются матовыми.
@@ -15,9 +15,7 @@
 
 В базовом варианте маска подключается как отдельный независимый текстурный файл формата `.vtf`.
 
-vmt
-
-```
+```vmt
 "LightmappedGeneric"
 {
 	"$basetexture" "stone/floor_marble01"
@@ -41,9 +39,7 @@ vmt
 
 Самый популярный метод для брашевой геометрии (шейдер `LightmappedGeneric`). Маска зеркальности запекается напрямую в альфа-канал диффузной карты.
 
-vmt
-
-```
+```vmt
 "LightmappedGeneric"
 {
 	"$basetexture"            "stone/floor_marble01" // Маска Specular запечена в Альфу этой текстуры
@@ -58,9 +54,7 @@ vmt
 
 Стандартный метод для динамических моделей (шейдер `VertexLitGeneric`). Маска зеркальности запекается в альфа-канал карты рельефа.
 
-vmt
-
-```
+```vmt
 "VertexLitGeneric"
 {
 	"$basetexture"            "models/weapons/v_pistol"
@@ -80,9 +74,7 @@ vmt
 
 Матрица двумерного преобразования UV-координат для карты зеркальности.
 
-vmt
-
-```
+```vmt
 "$envmapmasktransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
 ```
 

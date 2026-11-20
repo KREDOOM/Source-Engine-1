@@ -40,6 +40,10 @@ _**Physically Based Rendering (PBR)**_ — это современный инд�
 - **Базовая механика:** В шейдерах Source 1 нет отдельного текстурного слота под карту статического микрозатенения (AO) для моделей. Движок не умеет подмешивать её на лету.
 - **Что делать:** Откройте карту **Albedo** в Photoshop/Substance, наложите карту **Ambient Occlusion** самым верхним слоем в режиме смешивания **Умножение (Multiply)**. Отрегулируйте прозрачность (обычно 70-90%, чтобы тени не стали ядовито-черными) и запеките их в единый финальный файл `$basetexture`. Это создаст фейковый, но глубокий объем в щелях, пазах и складках модели.
 
+![[Jackal_AO.jpg]]
+
+_Пример карты Ambient Occlusion (Jackal): запекается в `$basetexture` слоем Multiply._
+
 ---
 
 ## 🛠️ Автоматизация процесса
@@ -49,7 +53,7 @@ _**Physically Based Rendering (PBR)**_ — это современный инд�
 - В **Adobe Substance Painter**: Создайте кастомный пресет экспорта (Export Preset). Настройте генерацию двух карт:
     1. `Input Map: Base Color` ➡️ RGB-каналы. `Input Map: Metallic` ➡️ Alpha-канал. (Назовите `_color`).
     2. `Input Map: Normal (с конвертацией в DirectX)` ➡️ RGB-каналы. `Input Map: Roughness (с инверсией)` ➡️ Alpha-канал. (Назовите `_normal`).
-- В **Adobe Substance Designer**: [Готовый шаблон](PBR_to_BlinnPhong.sbs)
+- В **Adobe Substance Designer**: [Готовый шаблон](../_resources/PBR_to_BlinnPhong.sbs)
 
 ---
 

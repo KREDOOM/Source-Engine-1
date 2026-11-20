@@ -1,1 +1,8 @@
-/.obsidian/workspace.json
+# Obsidian: личное состояние воркспейса (не коммитить)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+# Adobe Substance Designer: автосейвы (дубли .sbs)
+_resources/.autosave/
+# OS
+.DS_Store
+Thumbs.db

@@ -17,19 +17,28 @@ graph TD
     SourceEngine --> GarrysMod[Garrys Mod]
     SourceEngine --> Shaders[Шейдеры]
     SourceEngine --> Textures[Текстуры и материалы]
+    SourceEngine --> Tools[Современный инструментарий]
+
+    %% Модели и компиляция
+    Models --> Bodygroups[Bodygroups]
+    Models --> LOD[LOD]
+    Models --> Ragdoll[Ragdoll]
 
     %% Ветвление материалов и текстур
-    Textures --> VTF_VMT[Форматы .vtf / .vmt]
     Textures --> PBR[Конвертация PBR]
+    PBR --> Textures
 
     %% Шейдерный конвейер и параметры
     Shaders --> basetexture[$basetexture]
     Shaders --> bumpmap[$bumpmap]
+    Shaders --> color2[$color2]
+    Shaders --> detail[$detail]
+    Shaders --> emissiveblend[$emissiveblend]
+    Shaders --> envmap[$envmap]
     Shaders --> envmapmask[$envmapmask]
     Shaders --> phong[$phong]
-    Shaders --> envmap[$envmap]
-    Shaders --> detail[$detail]
     Shaders --> rimlight[$rimlight]
+    Shaders --> selfillum[$selfillum]
     Shaders --> ssbump[$ssbump]
     Shaders --> Proxies[Proxies]
 
@@ -42,7 +51,6 @@ graph TD
     Proxies --> basetexture
     Proxies --> detail
     GarrysMod --> Shaders
-    PBR --> Textures
 
     %% Стилизация узлов для читаемости
     style SourceEngine fill:#2d3748,stroke:#4a5568,stroke-width:2px,color:#fff
@@ -59,28 +67,44 @@ graph TD
 
 ```text
 .
-├── 📐 Shaders/                 # Статьи по шейдерам и их параметрам
-│   ├── \$basetexture.md        # Базовые альбедо-карты и UV-матрицы
-│   ├── \$bumpmap.md            # Специфика DirectX нормалей и инверсия каналов
-│   ├── \$detail.md             # Микродетализация и режимы блендинга
-│   ├── \$envmap.md             # Зеркальные отражения внутриигровых кубмапов
-│   ├── \$envmapmask.md         # Спекулярные маски и оптимизация альфа-каналов
-│   ├── \$phong.md              # Динамический блик Фонга и Fresnel эффекты
-│   ├── \$rimlight.md           # Силуэтная/контурная подсветка моделей
-│   └── \$ssbump.md             # Рельеф с запеченным самозатенением
+├── README.md                    # Эта страница: карта базы и инструкция по запуску
+├── TODO.md                      # Задачи: Substance-графы, сообщество, Dataview
+├── Source Engine 1.md           # Введение: история, ветки, боли движка
+├── Garrys Mod.md                # Особенности рендеринга и лимиты GMod
+├── Модели.md                    # Studio Models: .mdl/.vvd/.vtx/.phy и .qc
+├── Bodygroups.md                # Бодигруппы и $texturegroup
+├── LOD.md                       # Уровни детализации и removebone
+├── Ragdoll.md                   # Рэгдолл, VPhysics и хитбоксы
+├── Текстуры и материалы.md      # VTF/VMT: анатомия файла и синтаксис
+├── Современный инструментарий.md # Blender, Crowbar, VTFEdit, Hammer++
+├── Инструменты.md               # Hammer++/Crowbar/VTFEdit++: скриншоты и ссылки
 │
-├── 🛠️ Workflow/               # Пайплайны и пошаговые инструкции
-│   ├── PBR_to_BlinnPhong.md   # Декомпозиция PBR-карт под стандарты DX9
-│   ├── Proxies.md             # Динамические скрипты внутри VMT-материалов
-│   └── Текстуры и материалы.md # Руководство по работе с VTF/VMT через VTFEdit
+├── VMT/                         # Шейдерный конвейер: параметры материалов
+│   ├── Шейдеры.md               # Классификация шейдеров и лимиты DX9
+│   ├── $basetexture.md          # Альбедо-карты и UV-матрицы
+│   ├── $bumpmap.md              # Нормали DirectX и упаковка масок
+│   ├── $color2.md               # Динамическая покраска моделей
+│   ├── $detail.md               # Микродетализация и блендинг
+│   ├── $emissiveblend.md        # Анимированное самосвечение
+│   ├── $envmap.md               # Кубмапы и зеркальные отражения
+│   ├── $envmapmask.md           # Спекулярные маски и альфа-каналы
+│   ├── $phong.md                # Блик Фонга и Fresnel-эффекты
+│   ├── $rimlight.md             # Контурная подсветка
+│   ├── $selfillum.md            # Статичное самосвечение
+│   ├── $ssbump.md               # Рельеф с самозатенением
+│   ├── PBR.md                   # Конвертация PBR в Blinn-Phong
+│   └── Proxies.md               # Динамические скрипты внутри VMT
 │
-├── 🎮 Platform/               # Платформозависимые особенности
-│   ├── Введение в Source.md   # Общий обзор движка и его ограничений
-│   └── Garry's Mod.md         # Особенности рендеринга и лимиты в GMod
+├── _resources/                  # Вложения vault: картинки и Substance-графы (.sbs)
+│   ├── *.jpg / *.png            # Иллюстрации к статьям (эмбеды по имени файла)
+│   └── *.sbs                    # PBR_to_BlinnPhong, RE_Engine, Warframe_color_reconstruction
 │
-└── 📦 Models/                 # Трехмерные ассеты и компиляция
-    └── Модели.md              # Анатомия .qc скриптов и структуры компиляции
+└── .obsidian/                   # Конфиг vault: плагины, тема, граф
 ```
+
+> **Obsidian-first:** заметки связаны wikilink'ами `[[...]]`, картинки вставляются эмбедами `![[имя файла]]` (Obsidian находит их по имени в `_resources/`). На GitHub wikilink'и не кликабельны — для веб-просмотра используйте граф выше и ссылки в статьях. Папка вложений настроена в `.obsidian/app.json` (`attachmentFolder: _resources`), поэтому новые вставки из буфера складываются сюда же.
+
+Актуальные задачи и планы развития — в заметке [[TODO]].
 
 ---
 

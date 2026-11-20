@@ -13,7 +13,7 @@
 
 ## 📜 Историческая справка и наследие
 
-_**Source**_ — это проприетарный игровой 3D‑движок, созданный компанией [Valve](https://www.google.com/url?sa=i&source=web&rct=j&url=https://developer.valvesoftware.com/wiki/Ru/Valve&ved=2ahUKEwi_v47-0YyWAxVHQlUIHfJRAGgQy_kOegYIAAgNEAE&opi=89978449&cd&psig=AOvVaw2UIDqdAzGzk8Tk0xBZr7KQ&ust=1786127608194000) в 2004 году и ставший прямым преемником легендарного [GoldSrc](https://www.google.com/url?sa=i&source=web&rct=j&url=https://developer.valvesoftware.com/wiki/Ru/GoldSrc&ved=2ahUKEwi_v47-0YyWAxVHQlUIHfJRAGgQy_kOegYIAAgNEAI&opi=89978449&cd&psig=AOvVaw2UIDqdAzGzk8Tk0xBZr7KQ&ust=1786127608194000) (модифицированного движка Quake).
+_**Source**_ — это проприетарный игровой 3D‑движок, созданный компанией [Valve](https://developer.valvesoftware.com/wiki/Ru/Valve) в 2004 году и ставший прямым преемником легендарного [GoldSrc](https://developer.valvesoftware.com/wiki/Ru/GoldSrc) (модифицированного движка Quake).
 
 На момент своего релиза Source совершил технологический прорыв в нескольких ключевых областях:
 
@@ -21,15 +21,15 @@ _**Source**_ — это проприетарный игровой 3D‑движ�
 - **Искусственный интеллект:** Динамическая навигация по сеткам узлов (Nodes) и продвинутая логика поведения NPC.
 - **Лицевая анимация:** Уникальная для 2004 года система Flex-анимаций (шейпов) на основе «Системы кодирования лицевых движений» (FACS), позволившая персонажам реалистично выражать эмоции и синхронизировать губы с речью (Lip-Sync).
 
-Флагманская игра на этом движке — [Half-Life 2](https://www.google.com/url?sa=i&source=web&rct=j&url=https://developer.valvesoftware.com/wiki/Ru/Half-Life_2&ved=2ahUKEwi_v47-0YyWAxVHQlUIHfJRAGgQy_kOegYIAAgREAE&opi=89978449&cd&psig=AOvVaw2UIDqdAzGzk8Tk0xBZr7KQ&ust=1786127608194000) — собрала десятки наград «Игра года» во многом благодаря графическим возможностям Source, который умудрялся выдавать кинематографичную картинку, масштабируясь под слабое и старое оборудование (вплоть до видеокарт с поддержкой DirectX 7).
+Флагманская игра на этом движке — [Half-Life 2](https://developer.valvesoftware.com/wiki/Ru/Half-Life_2) — собрала десятки наград «Игра года» во многом благодаря графическим возможностям Source, который умудрялся выдавать кинематографичную картинку, масштабируясь под слабое и старое оборудование (вплоть до видеокарт с поддержкой DirectX 7).
 
-На сегодняшний день на Source создано более 100 коммерческих игр и бесчисленное множество модификаций. Движок развивался нелинейно: он разбит на [множество ветвей (Engine Branches)](https://www.google.com/url?sa=i&source=web&rct=j&url=https://developer.valvesoftware.com/wiki/Category:Source_engine_branches&ved=2ahUKEwi_v47-0YyWAxVHQlUIHfJRAGgQy_kOegYIAAgTEAE&opi=89978449&cd&psig=AOvVaw2UIDqdAzGzk8Tk0xBZr7KQ&ust=1786127608194000). Каждая новая игра Valve (от _The Orange Box_ и _Left 4 Dead_ до _Portal 2_ и _CS:GO_) приносила свои обновления в рендерер — от динамических теней (CSM) до многопоточной обработки и улучшенного сжатия текстур.
+На сегодняшний день на Source создано более 100 коммерческих игр и бесчисленное множество модификаций. Движок развивался нелинейно: он разбит на [множество ветвей (Engine Branches)](https://developer.valvesoftware.com/wiki/Category:Source_engine_branches). Каждая новая игра Valve (от _The Orange Box_ и _Left 4 Dead_ до _Portal 2_ и _CS:GO_) приносила свои обновления в рендерер — от динамических теней (CSM) до многопоточной обработки и улучшенного сжатия текстур.
 
 ---
 
 ## 🛠️ Почему Source 1 до сих пор жив?
 
-Несмотря на то, что движку уже перевалило за 20 лет, а сама Valve с 2015 года полностью перевела свои флагманские проекты на рельсы [Source 2](https://www.google.com/url?sa=i&source=web&rct=j&url=https://developer.valvesoftware.com/wiki/Ru/Source_2&ved=2ahUKEwi_v47-0YyWAxVHQlUIHfJRAGgQy_kOegYIAAgWEAE&opi=89978449&cd&psig=AOvVaw2UIDqdAzGzk8Tk0xBZr7KQ&ust=1786127608194000), первая версия движка остается невероятно популярной среди моддеров и инди-студий. На это есть три ключевые причины:
+Несмотря на то, что движку уже перевалило за 20 лет, а сама Valve с 2015 года полностью перевела свои флагманские проекты на рельсы [Source 2](https://developer.valvesoftware.com/wiki/Ru/Source_2), первая версия движка остается невероятно популярной среди моддеров и инди-студий. На это есть три ключевые причины:
 
 1. **Доступность и порог входа:** Инструментарий Source 1 изучен сообществом вдоль и поперек за два десятилетия. Созданы сотни сторонних утилит (Crowbar, VTFEdit, Blender Source Tools), которые заменяют неудобный официальный SDK. Напротив, Source 2 до сих пор страдает от катастрофического недостатка публичной документации.
 2. **Лицензионная политика:** Лицензировать Source 2 для коммерческой разработки сторонней студии практически невозможно — Valve неохотно идет на контакт по этому вопросу. В то же время Source 1 доступен для публикации модов в Steam (при условии покупки лицензии Havok через Valve).
@@ -63,6 +63,6 @@ _**Source**_ — это проприетарный игровой 3D‑движ�
 
 ---
 
-**Смотри также:** [[Текстуры и материалы]] | [[Шейдеры]] | [[Модели]] | [[Garrys Mod]]
+**Смотри также:** [[Текстуры и материалы]] | [[Шейдеры]] | [[Модели]] | [[Garrys Mod]] | [[Современный инструментарий]] | [[Инструменты]]
 
 ---

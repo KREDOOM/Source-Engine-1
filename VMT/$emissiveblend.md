@@ -17,9 +17,7 @@
 
 Базовый синтаксис VMT-кода:
 
-vmt
-
-```
+```vmt
 "VertexLitGeneric"
 {
 	"$basetexture" "models/props/sci_fi_core"
@@ -61,9 +59,7 @@ vmt
 
 Скомбинировав параметры `$emissiveblend` со встроенными математическими шейдерными скриптами — **[[Proxies]]**, можно превратить статичную модель в живой анимированный проп для Garry's Mod без использования тяжелых покадровых текстур `.vtf`.
 
-vmt
-
-```
+```vmt
 "VertexLitGeneric"
 {
 	"$basetexture" "models/props/reactor"
