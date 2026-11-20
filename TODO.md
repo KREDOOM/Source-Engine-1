@@ -4,13 +4,13 @@
 
 ## 🛠️ Разработка в Adobe Substance Designer
 
-- [ ] Доделать [Реверс-инжиниринг текстур Warframe](Warframe_color_reconstruction.sbs) используя **Adobe Substance Designer.**
+- [ ] Доделать [Реверс-инжиниринг текстур Warframe](_resources/Warframe_color_reconstruction.sbs) используя **Adobe Substance Designer.**
 	- [ ] Изучить специфику упаковки карт Warframe (диффуз, маски покраски, каналы тинта).
 	- [ ] Настроить ноду преобразования для корректного вывода металлов под Source 1.
-- [ ] Улучшить [Конвертирование PBR в Blinn-Phong](PBR_to_BlinnPhong.sbs) используя **Adobe Substance Designer.**
+- [ ] Улучшить [Конвертирование PBR в Blinn-Phong](_resources/PBR_to_BlinnPhong.sbs) используя **Adobe Substance Designer.**
 	- [ ] Стандартизировать интерфейс: применить RGB-кодировку рамок для инпутов и аутпутов (Зеленый для Albedo, Синий для Normal и т.д.).
 	- [ ] Добавить ноду `Pixel Processor` для автоматической калибровки яркости `$phongboost` прямо из графа.
-- [ ] Улучшить [Конвертирование текстур из Re-Engine в Source Engine 1](RE_Engine.sbs) используя **Adobe Substance Designer.**
+- [ ] Улучшить [Конвертирование текстур из Re-Engine в Source Engine 1](_resources/RE_Engine.sbs) используя **Adobe Substance Designer.**
 	- [ ] Проверить финальную схему изоляции маски `Emissive_OUT` от общей карты `ATOS`.
 	- [ ] Протестировать экспорт рельефа без использования `Normal Invert` (подтвердить соответствие стандарту DirectX Y- на тестовых моделях).
 

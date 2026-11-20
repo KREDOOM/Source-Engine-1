@@ -15,9 +15,7 @@
 
 Подключение требует обязательного указания пути к текстуре деталей и коэффициента ее масштабирования (тайлинга).
 
-vmt
-
-```
+```vmt
 "VertexLitGeneric"
 {
 	"$basetexture" "models/props/concrete_wall"
@@ -55,9 +53,7 @@ vmt
 
 Матрица двумерного преобразования UV-координат исключительно для детальной текстуры.
 
-vmt
-
-```
+```vmt
 "$detailtransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
 ```
 
@@ -89,9 +85,7 @@ vmt
 
 Используя режим смешивания `5` (Unlit Additive) и связку с [[Proxies]], можно превратить статичную текстуру деталей в динамический индикатор здоровья или декоративное свечение прибора.
 
-vmt
-
-```
+```vmt
 "VertexLitGeneric"
 {
 	"$basetexture"       "models/props/sci_fi_generator"

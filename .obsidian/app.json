@@ -2,5 +2,6 @@
   "promptDelete": false,
   "showLineNumber": false,
   "readableLineLength": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "attachmentFolder": "_resources"
 }
